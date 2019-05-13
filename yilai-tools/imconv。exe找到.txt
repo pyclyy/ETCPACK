@@ -1,0 +1,10 @@
+首先  可以看到 很多人说 imconv 都20年不更新了，链接都失效了，
+
+很多人解决方法是， 下载安装 imageMagick ，
+
+
+备注3：etcpack对ktx文件decompress之后，得到的是ppm格式，如果需要转换成我们常见的格式，如tga、png的话，需要依赖另一个工具imconv，我找了ImageMagick里的convert.exe来代替，改名为imconv后与etcpack放置在同一目录下即可，etcpack会自动调用imconv。
+
+
+但是我下载后安装 imageMagick 后发现都变了，magick.exe   测试可用， 另外我使用了 ps2018 中的测试也是可用的
+
